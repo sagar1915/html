@@ -1,0 +1,114 @@
+body {
+  color: rgb(44, 2, 68);
+  margin: 0;
+  padding: 0;
+  background-color: #eaf0f1;
+  text-align: center;
+  font-family: "Merriweather";
+}
+.top-container {
+  font-family: sans-serif;
+  padding-top: 100px;
+  position: relative;
+}
+.middle-container {
+  margin: 100px auto;
+}
+.h1 {
+  color: #66bfbf;
+  font-weight: bold;
+  font-size: 90px;
+  font-family: "Sacramento", sans-serif;
+  margin-bottom: 0;
+}
+.p1 {
+  color: #66bfbf;
+  margin-top: 0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  line-height: 3;
+}
+hr {
+  border-style: dotted;
+  border-color: #66bfbf;
+  border-bottom: none;
+  border-width: 5px;
+  width: 4%;
+  margin: 100px auto;
+}
+h2 {
+  text-align: center;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+
+.firstimage {
+  position: absolute;
+  right: 300px;
+  top: 5px;
+}
+.secondimage {
+  position: absolute;
+  left: 400px;
+}
+.mountain {
+  margin: 0 auto;
+}
+.skills {
+  text-align: center;
+}
+.skill-row {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-bottom: 5%;
+}
+.designimg {
+  width: 15%;
+  float: left;
+  margin-right: 20px;
+}
+.chilliimg {
+  width: 15%;
+  float: right;
+  margin-left: 20px;
+}
+.skills {
+  text-align: left;
+}
+.btn {
+  box-shadow: inset 1px 0px 17px -50px #bbdaf7;
+  background: linear-gradient(to bottom, #66bfbf 5%, #66bfbf 100%);
+  background-color: #79bbff;
+  border-radius: 6px;
+  border: 1px solid #84bbf3;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Merriweather";
+  font-size: 17px;
+  font-weight: bold;
+  padding: 5px 19px;
+  text-decoration: none;
+  text-shadow: 2px 3px 0px #66bfbf;
+}
+.btn:hover {
+  background: linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+  background-color: #378de5;
+}
+.btn:active {
+  position: relative;
+  top: 1px;
+}
+.bottom-container{
+    background-color: #66bfbf;
+    padding: 20px 0 20px 0;
+
+}
+a{
+    color: white;
+    text-decoration: transparent;
+     font-family: "Montserrat", sans-serif;
+     margin: 20px,20px;
+}
